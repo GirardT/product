@@ -3,7 +3,7 @@
 
 <head>
     <title></title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="index.css">
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta name="keywords" content="">
@@ -12,11 +12,36 @@
 
 <body>
     <main>
-        <header></header>
-        <section></section>
+        <header id="header">
+            <img id="header-img" src="https://i.pinimg.com/474x/11/62/29/1162297c0a85027a2447294e0f42c4c5.jpg"
+                alt="Company Logo" />
+            <nav id="nav-bar">
+                <a class="nav-link" href="#landing">Home</a>
+                <a class="nav-link" href="#landing"></a>
+                <a class="nav-link" href="#landing"></a>
+            </nav>
+        </header>
+        <section>
+            <div id="landing">
+                <video id="video" src="#"></video>
+                <form id="form" action="https://www.freecodecamp.com/email-submit">
+                    <div class="form-group">
+                        <label id="email-label" for="email"></label>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Enter email address" required />
+ 
+                        <input type="submit" id="submit" class="submit-button" />
+                    </div>
+                </form>
+            </div>
+        </section>
         <footer>
-            <a href="https://github.com/GirardT/" target=_blank>View Source Code</a><br />
-            Girard Andrew Tabañag
+            <div id="footer">
+                <a href="https://github.com/GirardT/" target=_blank>View Source Code</a><br />
+                Girard Andrew Tabañag
+            </div>
         </footer>
     </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="node_modules/bundle-js/index.js"></script>
+
 </body>
